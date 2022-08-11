@@ -4,3 +4,23 @@ class Utilisateur:
   
   def setNom(self, n):
     self.nom = n
+
+______________________
+
+pierre = Utilisateur()
+maxime = Utilisateur()
+
+pierre.statut
+Inscrit
+
+maxime.age
+0
+
+pierre.statut = "Admin"
+pierre.statut
+Admin
+
+pierre.genre = "Homme"
+pierre.genre
+Homme
+
