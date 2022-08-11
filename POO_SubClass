@@ -18,4 +18,4 @@ class Client(Utilisateur):
     self.user_mail = mail
   
   def getNom(self):
-    print("Salut, je suis ", self.user_name, Mon adresse est : ", self.user_mail)
+    print("Salut, je suis ", self.user_name, "Mon adresse est : ", self.user_mail)
