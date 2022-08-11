@@ -1,0 +1,11 @@
+texte = "Je m'appelle {} {}, j'habite en {}"
+
+texte.format("Guillaume", "HY", "France")
+'Je m'appelle Guillaume HY, j'habite en France'
+
+prenom = "Guillaume"
+nom = "HY"
+pays = "France"
+
+f"Je m'appelle {prenom} {nom}; j'habite en {pays}"
+'Je m'appelle Guillaume HY, j'habite en France'
