@@ -1,0 +1,26 @@
+iterable1 = "abcde"
+iterateur1 = iter(iterable1)
+
+next(iterateur1)
+'a'
+next(iterateur1)
+'b'
+next(iterateur1)
+'c'
+next(iterateur1)
+
+iterable2 = ["Pierre", 32, "Albi"]
+iterateur2 = iter(iterable2)
+
+next(iterateur2)
+'Pierre'
+next(iterateur2)
+32
+next(iterateur2)
+Albi
+next(iterateur2)
+Traceback (most recent call last):
+  filte '<stdin>, line 1, in <module>
+StopIteration
+
+________________________
