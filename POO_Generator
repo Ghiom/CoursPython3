@@ -1,0 +1,18 @@
+def iteration(donnee):
+  for index in range(0, len(donnee), 2):
+    yield donnee[index]
+
+test = iteration("abcdefg")
+
+next(test)
+'a'
+next(test)
+'c'
+next(test)
+'e'
+next(test)
+'g'
+next(test)
+Traceback (most recent call last):
+  filte '<stdin>, line 1, in <module>
+StopIteration
