@@ -1,0 +1,23 @@
+class Visibilite:
+  public = "Variable publique"
+  _protected = "Variable protégée"
+  __private = "Variable privée"
+
+
+_____________________
+
+objet = Visibilite()
+
+objet.public
+'Variable publique'
+
+objet._protected
+'Variable protégée'
+
+objet.__private
+Traceback (most recent call last):
+  File "<stdin>, line 1, in <module>
+AttributeError: 'Visibilite' object as no attribute '__private'
+
+objet._Visibilite__private
+'Variable privée'
