@@ -6,9 +6,16 @@ class Utilisateur:
     self.user_age = age
 
   def getNom(self):
-    print("Salut, je suis ", self.user_name")
+    print("Salut, je suis ", self.user_name)
     
 class Client(Utilisateur):
   is_client = True
+  anciennete = 10
   
-  #Imaginez d'autres fonctions de classe
+  def __init__(self, nom, age, mail):
+    self.user_name = nom
+    self.user_age = age
+    self.user_mail = mail
+  
+  def getNom(self):
+    print("Salut, je suis ", self.user_name, Mon adresse est : ", self.user_mail)
