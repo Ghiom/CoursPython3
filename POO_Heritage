@@ -6,7 +6,7 @@ class Alphabet:
   def test1(self):
     print("Fonction test1() de la classe Alphabet")
   def test2(self):
-    print("Fonction testé() de la classe Alphabet")
+    print("Fonction test2() de la classe Alphabet")
 
 class Mot:
   def info(self):
@@ -22,7 +22,7 @@ class Accent:
   def test2(self):
     print("Fonction test2() de la classe Accent")
   def test3(self):
-    print("Fonction testé() de la classe Accent")
+    print("Fonction test3() de la classe Accent")
 
 class A(Alphabet):
   def info(self):
